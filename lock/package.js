@@ -1,7 +1,7 @@
 'use strict';
 
 Package.describe({
-    name         : 'xcv58:auth0-lock',
+    name         : 'sarathspillai:auth0-lock',
     version      : '0.5.0',
     summary      : 'Auth0 Lock for Meteor',
     git          : 'https://github.com/auth0/meteor-auth0.git',
