@@ -2,12 +2,14 @@ if (Meteor.isClient) {
     Meteor.lock = {};
     self      = Meteor;
     Meteor.startup(function () {
+        console.log("1");
         Meteor.call('getAuth0Attributes', function (error, res) {
             // Instantiate lock as soon as the getAuth0Attributes Meteor method
             // returns.
             if (!res.AUTH0_CLIENTID || !res.AUTH0_DOMAIN) {
               return;
             }
+
             if(Meteor.settings.public.logoLocation) {
                 var options = {
                     theme: {

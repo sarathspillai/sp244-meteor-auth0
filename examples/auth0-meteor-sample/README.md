@@ -15,5 +15,3 @@ meteor --settings settings.json
 ```
 
 Go to `http://localhost:3000` and you'll see the app running & working :boom:.
-
-Added options to have logo changes
